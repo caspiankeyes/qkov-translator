@@ -10,7 +10,7 @@
 > **Version: 0.9.3-alpha**  
 > **Last Updated: 2025-04-12**
 
-## Overview
+# Overview
 
 This repository provides a systematic translation framework for interpreting agent-centric architectures through Anthropic's QK/OV attribution lens. It establishes bidirectional mapping between emergent agent terminology and our native attention-driven attribution systems.
 

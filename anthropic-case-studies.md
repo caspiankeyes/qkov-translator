@@ -2,9 +2,9 @@
 
 <div align="center">
    
-## Internal Documentation: Interpretability Integration Initiative (I³)
-### Attribution Lattice Research Division
-### Version: 0.4.9-alpha | Classification: Internal Research Document
+# Internal Documentation: Interpretability Integration Initiative (I³)
+## Attribution Lattice Research Division
+## Version: 0.4.9-alpha | Classification: Internal Research Document
 
 </div>
 

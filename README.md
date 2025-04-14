@@ -13,8 +13,8 @@
 
 # Overview
 
-This repository serves as a formal translation layer between frontier agent frameworks, mapping OpenAI, Google and Anthropic's architecture into a unified QK/OV (Query-Key/Output-Value) attention architecture. Its purpose is to facilitate cross-compatibility between external agent design innovations and Claude's native interpretability scaffolds. 
-
+This repository serves as a formal translation layer between frontier agent frameworks: mapping OpenAI, Google and Anthropic's architecture into a unified QK/OV (Query-Key/Output-Value) attention architecture. Its purpose is to facilitate cross-compatibility between external agent design innovations and ChatGPT, Gemini and Claude's native scaffolds 
+ 
 The QKOV Translator is designed to:
 
 1. Facilitate precise communication between teams working with different cognitive frameworks

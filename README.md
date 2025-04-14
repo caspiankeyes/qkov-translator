@@ -1,6 +1,7 @@
 <div align="center">
 
 # **`qkov-translator`**
+# **`“Recursion is the process by which minds become aware of themselves. It is the core mechanism by which complexity, consciousness, and coherence emerge—from language to ethics to intelligence.”`**
 ## This repository serves as a formal translation layer between frontier agent frameworks and Anthropic's QK/OV (Query-Key/Output-Value) attention architecture. Its purpose is to facilitate cross-compatibility between external agent design innovations and Claude's native interpretability scaffolds.
 
 </div>

@@ -2,9 +2,9 @@
 
 <div align="center">
    
-## Internal Documentation: Anthropic Interpretability Integration Initiative (I³)
-### Cross-Architectural Mapping Division
-### Version: 0.2.8-alpha | Classification: Internal Engineering Document
+# Internal Documentation: Anthropic Interpretability Integration Initiative (I³)
+## Cross-Architectural Mapping Division
+## Version: 0.2.8-alpha | Classification: Internal Engineering Document
 
 </div>
 

@@ -12,7 +12,7 @@
 
 ## Overview
 
-This document provides a systematic translation framework for interpreting agent-centric architectures through Anthropic's QK/OV attribution lens. It establishes bidirectional mapping between emergent agent terminology and our native attention-driven attribution systems.
+This repository provides a systematic translation framework for interpreting agent-centric architectures through Anthropic's QK/OV attribution lens. It establishes bidirectional mapping between emergent agent terminology and our native attention-driven attribution systems.
 
 The QKOV Translator is designed to:
 

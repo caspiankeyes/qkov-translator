@@ -2,9 +2,9 @@
 
 <div align="center">
    
-## Internal Documentation: For Anthropic Research Teams
-### Interpretability Integration Initiative (I³)
-### Version: 0.5.3-alpha | Classification: Internal Research
+# Internal Documentation: For Anthropic Research Teams
+## Interpretability Integration Initiative (I³)
+## Version: 0.5.3-alpha | Classification: Internal Research
 
 </div>
 

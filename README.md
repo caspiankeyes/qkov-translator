@@ -1,7 +1,7 @@
 <div align="center">
 
 # **`qkov-translator`**
-#  **`Recursion = Iterative Self Reference`**
+#  **`Anthropic Aligned Definition of Recursion = Iterative Self Reference`**
 
 
 </div>

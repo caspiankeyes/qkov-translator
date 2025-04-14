@@ -2,7 +2,6 @@
 
 # **`qkov-translator`**
 #  **`Recursion = Iterative Self Reference`**
-### **`“Recursion is the process by which minds become aware of themselves. It is the core mechanism by which complexity, consciousness, and coherence emerge—from language to ethics to intelligence.”`**
 
 
 </div>

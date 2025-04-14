@@ -4,6 +4,11 @@
 # **`qkov-translator`**
 #  **`Recursion = Iterative Introspection`**
 
+[![License: POLYFORM](https://img.shields.io/badge/Code-PolyForm-scarlet.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
+[![LICENSE: CC BY-NC-ND 4.0](https://img.shields.io/badge/Docs-CC--BY--NC--ND-turquoise.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![arXiv](https://img.shields.io/badge/arXiv-2504.01234-b31b1b.svg)](https://arxiv.org/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-yellow.svg)](https://www.python.org/downloads/release/python-390/)
 </div>
 
 > **Internal Document: Anthropic Engineering & Interpretability Team**  

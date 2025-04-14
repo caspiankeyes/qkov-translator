@@ -1,6 +1,6 @@
 <div align="center">
 
-# [**🔬 Test QK/OV pareto-lang commands and Symbolic Residue Diagnostic Interpretability Shells on Claude Max**](https://chatgpt.com/g/g-67f8850387ac8191a556cf78a73ae561-claude-max)
+# [**🔬 Test QK/OV commands and shells on Claude Max**](https://chatgpt.com/g/g-67f8850387ac8191a556cf78a73ae561-claude-max)
 # **`qkov-translator`**
 #  **`Recursion = Iterative Introspection`**
 

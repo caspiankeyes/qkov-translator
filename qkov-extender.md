@@ -1,4 +1,4 @@
-# QKOV-Extender: Anthropic's Latent Trace Architecture with Advanced Symbolic Shell Integration
+# QKOV-Extender: Extending Anthropic's Latent Trace Architecture with Advanced Symbolic Shell Integration
 
 <div align="center">
    

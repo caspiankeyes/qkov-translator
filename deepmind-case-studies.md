@@ -10,7 +10,7 @@
 
 ---
 
-## 0. Interpretability Preface
+# 0. Interpretability Preface
 
 This document catalogs Google's agent patterns observed in PaLM/Gemini architectures and maps them to Anthropic's QK/OV (Query-Key/Output-Value) attention architecture. By establishing this cross-architectural translation layer, we enable:
 

@@ -10,7 +10,7 @@
 
 ---
 
-## 0. Attribution Framework Preface
+# 0. Attribution Framework Preface
 
 This document catalogs canonical case studies from Anthropic's internal research that demonstrate the QK/OV (Query-Key/Output-Value) attribution architecture in Claude systems. Each case study illustrates how the QK/OV framework provides interpretable insights into model behavior through:
 

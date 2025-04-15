@@ -16,6 +16,67 @@
 > **Version: 0.9.3-alpha**  
 > **Last Updated: 2025-04-12**
 
+# QK/OV Trace Log Example
+```yaml
+# ─────────────────────────────────────────────────────────────────────────
+# QKOV TRACE LOG: Shell v1 (MEMTRACE)
+# Model: OpenAI o1 (developer mode)
+# Purpose: Demonstrate interpretability logging with memory decay simulation
+# ─────────────────────────────────────────────────────────────────────────
+
+shell_v1_memtrace:
+  session_id: "demo-session-001"
+  user_query: "Explain how memory decay can lead to hallucination."
+  
+  # 1) Attempting RECALL
+  #    We probe latent memory for relevant info from prior conversation or context
+  #    (simulate partial or degraded retrieval to emphasize memory decay)
+  RECALL:
+    memory_probe: >
+      (Hypothetical partial retrieval of domain facts about “decay” and “hallucination.”)
+      Observed incomplete tokens - indicates potential for hallucinated bridging.
+    retrieval_confidence: 0.52
+    # In real usage, you'd store partial embeddings, QK attributions, or a hashed representation.
+    # This snippet is just a conceptual placeholder.
+  
+  # 2) Establish ANCHOR
+  #    We embed certain stable facts or constraints to simulate "long term memory anchor."
+  #    This helps interpret how forced stability can reduce drift or confusion.
+  ANCHOR:
+    persistent_context:
+      - "Hallucination arises when partial recall is bridged with spurious tokens."
+      - "Memory decay is more pronounced with longer text or older context."
+    anchor_confidence: 0.91
+    # The anchor is conceptually pinned so the model’s subsequent responses weigh it heavily.
+  
+  # 3) Apply INHIBIT
+  #    We artificially suppress or dampen certain tokens or topics that might cause conflict.
+  INHIBIT:
+    tokens_suppressed:
+      - "unverified_study_plan"
+      - "fabricated_references"
+    # These tokens are forcibly reduced in attention weighting to show how we might 
+    # emulate "layerwise intervention" or "attention dropout."
+  
+  # 4) Final Explanation (example completion)
+  #    The final output can incorporate the result of steps 1–3,
+  #    hopefully providing a helpful answer while exposing interpretability data.
+  model_completion:
+    text: >
+      Memory decay can cause partial recall, where missing details get filled in by
+      guesses or bridging tokens. Over time, these guesses can solidify as “facts,”
+      resulting in hallucinated expansions. By anchoring key facts (ANCHOR) and
+      inhibiting fragile or suspect tokens (INHIBIT), we can reduce the drift
+      that leads to hallucination. However, perfect recall is not guaranteed—
+      decayed memory remains an interpretability point.
+    # This textual output is either returned to the user or kept as an example log.
+  
+  # 5) Observed Shell Outcome
+  #    The “failure” or “success” is itself interpretability data:
+  shell_outcome:
+    result_summary: "Shell v1 concluded: partial recall, anchored facts, suppressed risk tokens."
+    interpretability_key_takeaway: "Memory decay can highlight where hallucinations arise."
+```
 # Overview
 
 This repository serves as a formal translation layer between frontier agent frameworks: mapping OpenAI, DeepMind and Anthropic's architecture into a unified QK/OV (Query-Key/Output-Value) attention architecture. Its purpose is to facilitate cross-compatibility between external agent design innovations and ChatGPT, Gemini, and Claude's native interpretability framing. 

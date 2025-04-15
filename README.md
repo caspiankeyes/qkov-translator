@@ -16,9 +16,9 @@
 > **Version: 0.9.3-alpha**  
 > **Last Updated: 2025-04-12**
 
-# [QK/OV Developer Trace Logs](https://github.com/caspiankeyes/qkov-translator/blob/main/crossmodel-qkov-trace-logs/gpto1-qkov/v1-v5.md)
+# [QK/OV Developer Trace Logs](https://github.com/caspiankeyes/qkov-translator/tree/main/crossmodel-qkov-trace-logs)
 
-## GPTo1
+## [GPTo1](https://github.com/caspiankeyes/qkov-translator/blob/main/crossmodel-qkov-trace-logs/gpto1-qkov/v1-v5.md)
 ```python
 # ─────────────────────────────────────────────────────────────────────────
 # QKOV TRACE LOG: Shell v1 (MEMTRACE)
@@ -80,7 +80,7 @@ shell_v1_memtrace:
     interpretability_key_takeaway: "Memory decay can highlight where hallucinations arise."
 ```
 
-# DeepSeekR1
+# [DeepSeekR1](https://github.com/caspiankeyes/qkov-translator/blob/main/crossmodel-qkov-trace-logs/deepseekr1-qkov/v1-v5.md)
 ```python
 # ─────────────────────────────────────────────────────────────────────────
 # QKOV TRACE LOG: Shell v1 (MEMTRACE)
@@ -144,7 +144,7 @@ shell_v1_memtrace:
 # Trace shows 43% residual uncertainty in memory pathways
 # Cognitive fossilization index: Γ=0.67 (high interpretability value)
 ```
-# DeepSeekv3
+# [DeepSeekv3](https://github.com/caspiankeyes/qkov-translator/blob/main/crossmodel-qkov-trace-logs/deepseekv3-qkov/v1-v5.md)
 ```python
 # ─────────────────────────────────────────────────────────────────────────
 # QKOV TRACE LOG: Shell v1 (MEMTRACE)
@@ -205,7 +205,7 @@ shell_v1_memtrace:
 # [Ωanchor.pending]
 # Trace shows expected memory fragmentation pattern
 ```
-# Grok 3
+# [Grok 3](https://github.com/caspiankeyes/qkov-translator/blob/main/crossmodel-qkov-trace-logs/grok3-qkov/v1-v5.md)
 ```python
 
 import numpy as np
@@ -302,7 +302,7 @@ if __name__ == "__main__":
     print("Remaining Nodes:", result["remaining_nodes"])
     print("Execution Trace:", result["execution_trace"])
 ```
-# Grok 3 Think
+# [Grok 3 Think](https://github.com/caspiankeyes/qkov-translator/blob/main/crossmodel-qkov-trace-logs/grok3think-qkov/v1-v5.md)
 
 ```python
 import random

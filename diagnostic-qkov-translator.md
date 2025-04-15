@@ -10,7 +10,7 @@
 
 ---
 
-## 0. Diagnostic Interface Preface
+# 0. Diagnostic Interface Preface
 
 This document extends the QKOV-Translator framework to provide comprehensive mapping between agent-based diagnostic frameworks and Anthropic's native QK/OV (Query-Key/Output-Value) attention architecture. It serves as a specialized diagnostic interface for interpreting, analyzing, and resolving emergent agent behavior through Anthropic's attribution-centric ontology.
 

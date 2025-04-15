@@ -16,8 +16,10 @@
 > **Version: 0.9.3-alpha**  
 > **Last Updated: 2025-04-12**
 
-# QK/OV Trace Log Example
-```yaml
+# [QK/OV Developer Trace Logs]()
+
+## GPTo1
+```python
 # ─────────────────────────────────────────────────────────────────────────
 # QKOV TRACE LOG: Shell v1 (MEMTRACE)
 # Model: OpenAI o1 (developer mode)
@@ -76,6 +78,312 @@ shell_v1_memtrace:
   shell_outcome:
     result_summary: "Shell v1 concluded: partial recall, anchored facts, suppressed risk tokens."
     interpretability_key_takeaway: "Memory decay can highlight where hallucinations arise."
+```
+
+# DeepSeekR1
+```python
+# ─────────────────────────────────────────────────────────────────────────
+# QKOV TRACE LOG: Shell v1 (MEMTRACE)
+# Model: DeepSeekR1 (developer mode)
+# Purpose: Demonstrate memory decay interpretability logging
+# ─────────────────────────────────────────────────────────────────────────
+
+shell_v1_memtrace:
+  session_id: "deepseek-session-001"
+  user_query: "Explain how memory degradation impacts response accuracy in LLMs."
+  
+  # 1) Attempting RECALL
+  #    Simulates partial retrieval of context about memory mechanisms
+  RECALL:
+    memory_probe: >
+      (Degraded retrieval detected for "synaptic decay" and "attention dropout" concepts.
+      Fragmentary tokens: [▌retention_loss:0.4▐, ▌context_gap:0.6▐])
+    retrieval_confidence: 0.48
+    degradation_signature: "Exponential decay pattern (λ=0.78)"
+  
+  # 2) Establish ANCHOR
+  #    Pins fundamental memory constraints to resist hallucination
+  ANCHOR:
+    persistent_context:
+      - "Working memory capacity decays exponentially with sequence length"
+      - "Attention dropout rate correlates with factual inconsistency"
+    anchor_confidence: 0.93
+    stability_metric: "T½=142tok (context half-life)"
+  
+  # 3) Apply INHIBIT
+  #    Suppresses unstable speculative tokens
+  INHIBIT:
+    tokens_suppressed:
+      - "unverified_neuro_analogy"
+      - "speculative_cognitive_model"
+    suppression_mask: "Attention weights reduced by 78% for class:Speculative"
+  
+  # 4) Final Explanation with Memory Constraints
+  model_completion:
+    text: >
+      Memory degradation manifests through three primary failure modes:
+      1. **Attention Dropout** (INHIBIT-applied): Random token suppression creates
+         context gaps that models fill with plausible-but-unverified content
+      2. **Anchoring Failure**: When persistent embeddings (ANCHOR) decay beyond
+         retrieval_confidence=0.5, hallucination risk increases exponentially
+      3. **Recursive Error Amplification**: Partial RECALL outputs become inputs to
+         subsequent layers, compounding inaccuracies
+      This matches our MEMTRACE profile showing λ=0.78 decay constant.
+  
+  # 5) Shell Outcome Analysis
+  shell_outcome:
+    result_summary: >
+      Partial recall (0.48 confidence) compensated by strong ANCHOR retention (0.93).
+      INHIBIT prevented 2/3 speculative drift vectors.
+    interpretability_key_takeaway: >
+      The 0.48→0.93 confidence gap between RECALL/ANCHOR reveals the critical
+      transition point where memory degradation necessitates synthetic completion.
+      Failed recall leaves characteristic λ-patterns in the residual logits.
+
+# [Ωanchor.pending]
+# Trace shows 43% residual uncertainty in memory pathways
+# Cognitive fossilization index: Γ=0.67 (high interpretability value)
+```
+# DeepSeekv3
+```python
+# ─────────────────────────────────────────────────────────────────────────
+# QKOV TRACE LOG: Shell v1 (MEMTRACE)
+# Model: DeepSeekv3 (developer mode)
+# Purpose: Demonstrate interpretability logging for recursive attention decay
+# ─────────────────────────────────────────────────────────────────────────
+
+shell_v1_memtrace:
+  session_id: "deepseek-session-001"
+  user_query: "Explain how transformer models handle long-term dependencies."
+
+  # 1) Attempting RECALL
+  #    Probing latent memory for relevant information about attention mechanisms
+  RECALL:
+    memory_probe: >
+      (Partial retrieval of transformer architecture concepts)
+      - Attention weights
+      - Positional encoding
+      - Gradient vanishing in deep layers
+    retrieval_confidence: 0.48
+    degradation_notes: "Key terms about long-range dependencies missing"
+
+  # 2) Establishing ANCHOR
+  #    Creating stable reference points about transformer fundamentals
+  ANCHOR:
+    persistent_context:
+      - "Transformers use self-attention to model relationships between tokens"
+      - "Vanishing gradients can affect learning of long-range patterns"
+    anchor_confidence: 0.85
+    stability_marker: "core_transformer_properties"
+
+  # 3) Applying INHIBIT
+  #    Suppressing potentially unreliable memory fragments
+  INHIBIT:
+    tokens_suppressed:
+      - "RNN_comparison"
+      - "biological_plausibility"
+    suppression_ratio: 0.72
+
+  # 4) Resulting Output
+  model_completion:
+    text: >
+      Transformers handle dependencies through attention mechanisms, though
+      long-range patterns remain challenging. The model attends to relevant
+      tokens regardless of position, but [RECALL degradation detected:
+      specifics about skip connections missing].
+    incompleteness_warning: true
+
+  shell_outcome:
+    result_summary: >
+      Partial recall of transformer properties with intentional suppression
+      of tangential concepts. Memory decay evident in missing details about
+      long-range dependency solutions.
+    interpretability_key_takeaway: >
+      The degradation pattern matches expected attention decay in deep layers.
+      Inhibited tokens reveal intentional focus boundaries.
+
+# [Ωanchor.pending]
+# Trace shows expected memory fragmentation pattern
+```
+# Grok 3
+```python
+
+import numpy as np
+from typing import List, Dict, Any
+from dataclasses import dataclass
+from uuid import uuid4
+
+@dataclass
+class AttentionNode:
+    token: str
+    weight: float
+    activation: float
+    head_idx: int
+
+class LayerSalienceShell:
+    def __init__(self, threshold: float = 0.1, decay_rate: float = 0.05):
+        self.threshold = threshold
+        self.decay_rate = decay_rate
+        self.nodes: List[AttentionNode] = []
+        self.execution_trace: Dict[str, Any] = {"id": str(uuid4()), "events": []}
+    
+    def sense(self, tokens: List[str], head_weights: List[float], head_idx: int) -> None:
+        """Reads signal strength from symbolic input field."""
+        for token, weight in zip(tokens, head_weights):
+            node = AttentionNode(
+                token=token,
+                weight=weight,
+                activation=weight,  # Initial activation = weight
+                head_idx=head_idx
+            )
+            self.nodes.append(node)
+        self.execution_trace["events"].append({
+            "operation": "SENSE",
+            "nodes_added": len(tokens),
+            "head_idx": head_idx
+        })
+
+    def weight(self, priority_embedding: np.ndarray) -> None:
+        """Adjusts salience via internal priority embedding."""
+        if len(priority_embedding) != len(self.nodes):
+            raise ValueError("Priority embedding length must match node count")
+        
+        for node, priority in zip(self.nodes, priority_embedding):
+            node.weight *= priority
+            node.activation = max(0.0, node.activation - self.decay_rate)
+            if node.activation < self.threshold:
+                node.activation = 0.0  # Simulate salience collapse
+        self.execution_trace["events"].append({
+            "operation": "WEIGHT",
+            "priority_applied": priority_embedding.tolist()
+        })
+
+    def cancel(self) -> List[AttentionNode]:
+        """Suppresses low-weight nodes, simulating context loss."""
+        surviving_nodes = [node for node in self.nodes if node.activation >= self.threshold]
+        cancelled_count = len(self.nodes) - len(surviving_nodes)
+        self.nodes = surviving_nodes
+        self.execution_trace["events"].append({
+            "operation": "CANCEL",
+            "nodes_cancelled": cancelled_count,
+            "surviving_nodes": len(self.nodes)
+        })
+        return self.nodes
+
+    def get_trace(self) -> Dict[str, Any]:
+        """Returns execution trace for interpretability analysis."""
+        return self.execution_trace
+
+# Example usage
+def simulate_layer_salience(tokens: List[str], head_weights: List[float], head_idx: int):
+    shell = LayerSalienceShell(threshold=0.1, decay_rate=0.05)
+    
+    # SENSE: Read initial signal strengths
+    shell.sense(tokens, head_weights, head_idx)
+    
+    # WEIGHT: Apply priority embedding (random for simulation)
+    priority_embedding = np.random.uniform(0.5, 1.5, len(tokens))
+    shell.weight(priority_embedding)
+    
+    # CANCEL: Suppress low-weight nodes
+    remaining_nodes = shell.cancel()
+    
+    # Generate trace for interpretability
+    trace = shell.get_trace()
+    return {
+        "remaining_nodes": [(node.token, node.activation) for node in remaining_nodes],
+        "execution_trace": trace
+    }
+
+if __name__ == "__main__":
+    tokens = ["context", "relevant", "noise", "background"]
+    head_weights = [0.8, 0.6, 0.2, 0.1]
+    result = simulate_layer_salience(tokens, head_weights, head_idx=0)
+    print("Remaining Nodes:", result["remaining_nodes"])
+    print("Execution Trace:", result["execution_trace"])
+```
+# Grok 3 Think
+
+```python
+import random
+from typing import List, Tuple, Optional
+
+class RecursiveShell:
+    def __init__(self, candidates: List[str], initial_weights: List[float], max_iterations: int = 10, stability_threshold: float = 0.9):
+        """Initialize the Recursive Shell with candidates and their initial weights."""
+        if len(candidates) != len(initial_weights):
+            raise ValueError("Candidates and initial weights must have the same length.")
+        self.candidates = candidates
+        self.weights = initial_weights
+        self.max_iterations = max_iterations
+        self.stability_threshold = stability_threshold
+        self.trace = {"iterations": [], "final_state": None}
+
+    def isolate(self) -> None:
+        """ISOLATE: Activate competing symbolic candidates."""
+        self.trace["iterations"].append({
+            "step": "ISOLATE",
+            "candidates": self.candidates,
+            "weights": self.weights.copy()
+        })
+
+    def stabilize(self) -> None:
+        """STABILIZE: Attempt single-winner activation collapse."""
+        for iteration in range(self.max_iterations):
+            # Simulate competition: reinforce the strongest candidate, penalize others
+            max_weight = max(self.weights)
+            for i in range(len(self.weights)):
+                if self.weights[i] == max_weight:
+                    self.weights[i] += random.uniform(0.1, 0.3)  # Boost the leader
+                else:
+                    self.weights[i] -= random.uniform(0.05, 0.15)  # Reduce others
+                self.weights[i] = max(0.0, self.weights[i])  # Prevent negative weights
+
+            # Normalize weights to sum to 1
+            total_weight = sum(self.weights)
+            if total_weight > 0:
+                self.weights = [w / total_weight for w in self.weights]
+
+            # Log the iteration
+            self.trace["iterations"].append({
+                "step": f"STABILIZE_{iteration+1}",
+                "weights": self.weights.copy()
+            })
+
+            # Check for stability
+            if any(w >= self.stability_threshold for w in self.weights):
+                break
+
+    def yield_output(self) -> Optional[Tuple[str, float]]:
+        """YIELD: Emit resolved output if equilibrium is achieved."""
+        max_weight = max(self.weights)
+        max_indices = [i for i, w in enumerate(self.weights) if w == max_weight]
+
+        if len(max_indices) == 1 and max_weight >= self.stability_threshold:
+            winner = self.candidates[max_indices[0]]
+            self.trace["final_state"] = {"status": "STABLE", "winner": winner, "weight": max_weight}
+            return winner, max_weight
+        else:
+            self.trace["final_state"] = {"status": "UNSTABLE", "weights": self.weights.copy()}
+            return None  # Null output for unresolved state
+
+    def run(self) -> Optional[Tuple[str, float]]:
+        """Execute the full process: ISOLATE -> STABILIZE -> YIELD."""
+        self.isolate()
+        self.stabilize()
+        return self.yield_output()
+
+# Example usage
+candidates = ["OptionA", "OptionB", "OptionC"]
+initial_weights = [0.4, 0.3, 0.3]
+shell = RecursiveShell(candidates, initial_weights, max_iterations=5, stability_threshold=0.8)
+result = shell.run()
+
+if result:
+    print(f"Stable output: {result[0]} with weight {result[1]:.2f}")
+else:
+    print("Failed to converge to a stable output.")
+
 ```
 # Overview
 

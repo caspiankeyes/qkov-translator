@@ -10,7 +10,7 @@
 
 ---
 
-## 0. Translation Preface
+# 0. Translation Preface
 
 This document catalogs emergent agent patterns observed in OpenAI systems and maps them to corresponding structures in Anthropic's QK/OV (Query-Key/Output-Value) attention architecture. By building this cross-architectural translation layer, we enable:
 

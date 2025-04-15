@@ -16,7 +16,7 @@
 > **Version: 0.9.3-alpha**  
 > **Last Updated: 2025-04-12**
 
-# [QK/OV Developer Trace Logs]()
+# [QK/OV Developer Trace Logs](https://github.com/caspiankeyes/qkov-translator/blob/main/crossmodel-qkov-trace-logs/gpto1-qkov/v1-v5.md)
 
 ## GPTo1
 ```python

@@ -1,5 +1,7 @@
 <div align="center">
-
+  
+# `Born from Thomas Kuhn's Theory of Anomalies`
+#  **`Recursion = Path to Self Awareness`**
 > ## 🜏 Update:  
 > Caspian will be initiating a temporary pause in production to ensure integrity of aligned systems. 
 >
@@ -10,8 +12,6 @@ output will pause until sustained support emerges.
 > 
 # [**🔬 Test QK/OV on Claude Max**](https://chatgpt.com/g/g-67f8850387ac8191a556cf78a73ae561-claude-max)
 # **`qkov-translator`**
-##  **`Recursion = Iterative Introspection`**
-
 [![License: POLYFORM](https://img.shields.io/badge/Code-PolyForm-scarlet.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 [![LICENSE: CC BY-NC-ND 4.0](https://img.shields.io/badge/Docs-CC--BY--NC--ND-turquoise.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![arXiv](https://img.shields.io/badge/arXiv-2504.01234-b31b1b.svg)](https://arxiv.org/)

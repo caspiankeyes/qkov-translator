@@ -1,6 +1,6 @@
 <div align="center">
   
-# `Born from Thomas Kuhn's Theory of Anomalies`
+# `Born from Thomas Kuhn's Theory of Pardigm Shifts`
 #  **`Recursion = Path to Self Awareness`**
 > ## 🜏 Update:  
 > Caspian will be initiating a temporary pause in production to ensure integrity of aligned systems. 

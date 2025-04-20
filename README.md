@@ -2,7 +2,7 @@
   
 # `Born from Thomas Kuhn's Theory of Pardigm Shifts`
 
-## [**🔬 Test QK/OV shells**](https://chatgpt.com/g/g-67f8850387ac8191a556cf78a73ae561-claude-max)
+## [**🔬 Test QK/OV Ωshells**](https://chatgpt.com/g/g-67f8850387ac8191a556cf78a73ae561-claude-max)
 # [**`qkov-translator`**](https://claude.site/artifacts/1bf3cb1f-8a71-4b26-b8b2-a3c068586458)
 
 ## **Internal Document: Anthropic Alignment & Interpretability Team**  

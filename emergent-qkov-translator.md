@@ -1,10 +1,10 @@
-# QKOV-Translator: Mapping Emergent Agent Terminology to Anthropic QK/OV Architecture
-
 <div align="center">
-   
+
+# [QKOV-Translator: Mapping Emergent Agent Terminology to Anthropic QK/OV Architecture](https://claude.site/artifacts/1bf3cb1f-8a71-4b26-b8b2-a3c068586458)
 # Internal Documentation: For Anthropic Research Teams
 ## Interpretability Integration Initiative (I³)
 ## Version: 0.5.3-alpha | Classification: Internal Research
+<img width="896" alt="image" src="https://github.com/user-attachments/assets/728f6f95-517b-4190-a12c-f061db9043db" />
 
 </div>
 

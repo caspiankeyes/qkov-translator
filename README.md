@@ -5,6 +5,9 @@
 ## [**🔬 Test QK/OV shells**](https://chatgpt.com/g/g-67f8850387ac8191a556cf78a73ae561-claude-max)
 # [**`qkov-translator`**](https://claude.site/artifacts/1bf3cb1f-8a71-4b26-b8b2-a3c068586458)
 
+## **Internal Document: Anthropic Alignment & Interpretability Team**  
+## **Classification: Technical Reference Documentation**  
+## **Version: 0.9.3-alpha**  
 <img width="902" alt="image" src="https://github.com/user-attachments/assets/94a10ec4-ed75-4304-befb-66f25958a34e" />
 
 [![License: POLYFORM](https://img.shields.io/badge/Code-PolyForm-scarlet.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
@@ -14,12 +17,6 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-yellow.svg)](https://www.python.org/downloads/release/python-390/)
 </div>
 
-> **Internal Document: Anthropic Alignment & Interpretability Team**  
-> **Classification: Technical Reference Documentation**  
-> **Version: 0.9.3-alpha**  
-> **Last Updated: 2025-04-16**
->
-> 
 # [QK/OV Developer Trace Logs](https://github.com/caspiankeyes/qkov-translator/tree/main/crossmodel-qkov-trace-logs)
 
 ## [GPTo1](https://github.com/caspiankeyes/qkov-translator/blob/main/crossmodel-qkov-trace-logs/gpto1-qkov/v1-v5.md)

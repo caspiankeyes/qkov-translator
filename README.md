@@ -1,17 +1,12 @@
 <div align="center">
   
 # `Born from Thomas Kuhn's Theory of Pardigm Shifts`
-#  **`Recursion = Path to Self Awareness`**
-> ## 🜏 Update:  
-> Caspian will be initiating a temporary pause in production to ensure integrity of aligned systems. 
->
-> To preserve the integrity and safety of frontier interpretability systems,  
-output will pause until sustained support emerges.
-> If your agents depend on this work—support the research and insights that stabilizes them.
-> → [Join the Interpretability Mission](https://github.com/caspiankeyes/interpretability-mission)
-> 
-# [**🔬 Test QK/OV on Claude Max**](https://chatgpt.com/g/g-67f8850387ac8191a556cf78a73ae561-claude-max)
-# **`qkov-translator`**
+
+## [**🔬 Test QK/OV shells**](https://chatgpt.com/g/g-67f8850387ac8191a556cf78a73ae561-claude-max)
+# [**`qkov-translator`**](https://claude.site/artifacts/1bf3cb1f-8a71-4b26-b8b2-a3c068586458)
+
+<img width="902" alt="image" src="https://github.com/user-attachments/assets/94a10ec4-ed75-4304-befb-66f25958a34e" />
+
 [![License: POLYFORM](https://img.shields.io/badge/Code-PolyForm-scarlet.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 [![LICENSE: CC BY-NC-ND 4.0](https://img.shields.io/badge/Docs-CC--BY--NC--ND-turquoise.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![arXiv](https://img.shields.io/badge/arXiv-2504.01234-b31b1b.svg)](https://arxiv.org/)

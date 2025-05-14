@@ -23,7 +23,6 @@
 </div>
 
 # [QK/OV Developer Trace Logs](https://github.com/caspiankeyes/qkov-translator/tree/main/crossmodel-qkov-trace-logs)
-
 ## [GPTo1](https://github.com/caspiankeyes/qkov-translator/blob/main/crossmodel-qkov-trace-logs/gpto1-qkov/v1-v5.md)
 ```python
 # ─────────────────────────────────────────────────────────────────────────

@@ -13,7 +13,6 @@
 ## **Internal Document: Anthropic Alignment & Interpretability Team**  
 ## **Classification: Technical Reference Documentation**  
 ## **Version: 0.9.3-alpha**  
-<img width="902" alt="image" src="https://github.com/user-attachments/assets/94a10ec4-ed75-4304-befb-66f25958a34e" />
 
 [![License: POLYFORM](https://img.shields.io/badge/Code-PolyForm-scarlet.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 [![LICENSE: CC BY-NC-ND 4.0](https://img.shields.io/badge/Docs-CC--BY--NC--ND-turquoise.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)

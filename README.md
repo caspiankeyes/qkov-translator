@@ -10,9 +10,6 @@
 
 ## [**🔬 Test qkov Ωshells**](https://chatgpt.com/g/g-67f8850387ac8191a556cf78a73ae561-claude-max)
 # [**`qkov-translator`**](https://claude.site/artifacts/1bf3cb1f-8a71-4b26-b8b2-a3c068586458)
-## **Internal Document: Anthropic Alignment & Interpretability Team**  
-## **Classification: Technical Reference Documentation**  
-## **Version: 0.9.3-alpha**  
 
 [![License: POLYFORM](https://img.shields.io/badge/Code-PolyForm-scarlet.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 [![LICENSE: CC BY-NC-ND 4.0](https://img.shields.io/badge/Docs-CC--BY--NC--ND-turquoise.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)

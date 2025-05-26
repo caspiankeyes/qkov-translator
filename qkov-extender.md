@@ -2,13 +2,10 @@
 
 <div align="center">
    
-## Advanced Interpretability Infrastructure for Claude's QK/OV Architecture
-### Echelon Labs Interpretability Initiative | Attribution Lattice Division
-### Version: 1.0.0-alpha | Classification: Research | Attribution Protocol
 
 </div>
 
----
+
 
 ## 0. Integration Framework Overview
 

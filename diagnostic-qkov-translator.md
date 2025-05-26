@@ -2,9 +2,6 @@
 
 <div align="center">
    
-# Internal Documentation: For Anthropic Research & Diagnostics Teams
-## Interpretability Integration Initiative (I³) | Diagnostic Lattice Division
-## Version: 0.3.7-alpha | Classification: Internal Research | Diagnostic Protocol
 
 </div>
 

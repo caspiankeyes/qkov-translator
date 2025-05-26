@@ -15,7 +15,7 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-yellow.svg)](https://www.python.org/downloads/release/python-390/)
 </div>
 
-# [QK/OV Developer Trace Logs](https://github.com/caspiankeyes/qkov-translator/tree/main/crossmodel-qkov-trace-logs)
+## [QK/OV Developer Trace Logs](https://github.com/caspiankeyes/qkov-translator/tree/main/crossmodel-qkov-trace-logs)
 
 # Overview
 

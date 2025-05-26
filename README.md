@@ -16,6 +16,19 @@
 </div>
 
 # [QK/OV Developer Trace Logs](https://github.com/caspiankeyes/qkov-translator/tree/main/crossmodel-qkov-trace-logs)
+
+# Overview
+
+This repository serves as a formal translation layer between frontier agent frameworks: mapping OpenAI, DeepMind and Anthropic's architecture into a unified QK/OV (Query-Key/Output-Value) attention architecture. Its purpose is to facilitate cross-compatibility between external agent design innovations and ChatGPT, Gemini, and Claude's native interpretability framing. 
+ 
+The QKOV Translator is designed to:
+
+1. Facilitate precise communication between teams working with different cognitive frameworks
+2. Enable attribution tracing across heterogeneous architecture descriptions
+3. Standardize interpretability approaches for both internal and external agent systems
+4. Provide a common diagnostic language for system evaluation and safety alignment
+
+
 ## [GPTo1](https://github.com/caspiankeyes/qkov-translator/blob/main/crossmodel-qkov-trace-logs/gpto1-qkov/v1-v5.md)
 ```python
 # ─────────────────────────────────────────────────────────────────────────
@@ -383,18 +396,7 @@ else:
     print("Failed to converge to a stable output.")
 
 ```
-# Overview
 
-This repository serves as a formal translation layer between frontier agent frameworks: mapping OpenAI, DeepMind and Anthropic's architecture into a unified QK/OV (Query-Key/Output-Value) attention architecture. Its purpose is to facilitate cross-compatibility between external agent design innovations and ChatGPT, Gemini, and Claude's native interpretability framing. 
- 
-The QKOV Translator is designed to:
-
-1. Facilitate precise communication between teams working with different cognitive frameworks
-2. Enable attribution tracing across heterogeneous architecture descriptions
-3. Standardize interpretability approaches for both internal and external agent systems
-4. Provide a common diagnostic language for system evaluation and safety alignment
-
----
 
 ## Core Translation Principles
 
